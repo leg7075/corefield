@@ -1,0 +1,214 @@
+@font-face {
+    font-family: DellaRobbia;
+    src: url("assets/Della Robbia Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DellaRobbia;
+    font-weight: bold;
+    src: url("assets/Della Robbia Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: KozukaGothicPr6N;
+    src: url("assets/KozGoPr6N-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: KozukaGothicPr6N;
+    font-weight: lighter;
+    src: url("assets/KozGoPr6N-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: KozukaGothicPr6N;
+    font-weight: bold;
+    src: url("assets/KozGoPr6N-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HonokaShinMincho;
+    src: url("assets/Honoka_Shin_Mincho_L.otf") format("opentype");
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+span{
+    font-family: KozukaGothicPr6N;
+    font-weight: lighter;
+}
+
+body{
+    font-family: KozukaGothicPr6N;
+    letter-spacing: 2px;
+    overflow-x:hidden;
+}
+
+hr{
+    height: 1px;
+    width: 4em;
+    border-top: 1px solid #fff;
+}
+
+a:link {
+	color: #eeeeee;
+}
+
+a:visited {
+	color: #eeeeee;
+}
+
+a:hover {
+	color: #aaaaaa;
+}
+
+a.dropdown-item {
+    color: #4a4a4b;
+}
+
+.headercontent h1{
+    font-size: 40pt;
+}
+
+.lessonitemall{
+    border-radius: 5px;
+    background-color:rgba(210, 204, 195, 0.3);
+}
+
+/* .lessonitemall p{
+    font-size:small;
+} */
+
+.lessonitemall li{
+    font-size:small;
+}
+
+.lessonitemall h3{
+    font-family: KozukaGothicPr6N;
+}
+
+#arst{
+    font-family: DellaRobbia;
+}
+
+#header{
+    background: url(img/bg1.jpg);
+	background-attachment: fixed;
+	background-size: 200vh;
+    background-position: center;
+    height: 93vh;
+    text-align: center;
+    color: #ffffff;
+}
+#section-1 i{
+    font-size: 3vh;
+}
+
+#section-2{
+    background: url(img/bg2.jpg);
+	background-attachment: fixed;
+	background-size: 200vh;
+    background-position-y:20%;
+    height: 80vh;
+    text-align: justify;    
+    color: #ffffff;
+}
+
+#section-4{
+    background: url(img/bg3.jpg);
+	background-attachment: fixed;
+	background-size: 200vh;
+    background-position-y: 10%;
+    height: 80vh;
+    text-align: left;
+    color: #ffffff;
+}
+
+#footer-1 {
+    line-height: 200%;
+}
+
+#footer-1 i{
+    font-size: 2.5vh;
+    letter-spacing: 1vh;
+}
+
+/* About Page */
+
+#headerabout{
+    background: url(img/gradient.jpg);
+	background-attachment: fixed;
+	background-size: 200vh;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.headercontentabout h1{
+    font-family: HonokaShinMincho;
+    font-size: 50px;
+    color: rgba(74, 74, 75, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.headercontentabout p{
+    margin-bottom: 0px;
+}
+
+.banner{
+    width: 100vw;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#section-2-about{
+    background: url(img/slide11.jpg);
+	background-attachment: fixed;
+	background-size: 200vh;
+    background-position-y:20%;
+    height: 90vh;
+    text-align: justify;
+    color: #ffffff;
+}
+
+#section-2-lesson{
+    background: url(img/classroom.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+    background-position-y: 50%;
+    height: 110vh;
+    text-align: center; 
+    color: #ffffff;
+}
+
+#section-2-lesson p,ul{
+    text-align: justify;
+}
+
+#section-2-schedule{
+    background: url(img/bg3.jpg);
+	background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1200px) {
+    #section-2-lesson{
+        height:260vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #section-2-lesson{
+        height:270vh;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #section-2-lesson{
+        height:330vh;
+    }
+}
