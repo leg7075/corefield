@@ -97,7 +97,7 @@ a.dropdown-item {
 #header{
     background: url(img/bg1.jpg);
 	background-attachment: fixed;
-	background-size: 200vh;
+    background-size: cover;
     background-position: center;
     height: 93vh;
     text-align: center;
@@ -110,7 +110,7 @@ a.dropdown-item {
 #section-2{
     background: url(img/bg2.jpg);
 	background-attachment: fixed;
-	background-size: 200vh;
+	background-size: cover;
     background-position-y:20%;
     height: 80vh;
     text-align: justify;    
@@ -120,7 +120,7 @@ a.dropdown-item {
 #section-4{
     background: url(img/bg3.jpg);
 	background-attachment: fixed;
-	background-size: 200vh;
+	background-size: cover;
     background-position-y: 10%;
     height: 80vh;
     text-align: left;
@@ -141,7 +141,7 @@ a.dropdown-item {
 #headerabout{
     background: url(img/gradient.jpg);
 	background-attachment: fixed;
-	background-size: 200vh;
+	background-size: cover;
     background-position: center;
     height: 60vh;
     text-align: center;
@@ -171,7 +171,7 @@ a.dropdown-item {
 #section-2-about{
     background: url(img/slide11.jpg);
 	background-attachment: fixed;
-	background-size: 200vh;
+	background-size: cover;
     background-position-y:20%;
     height: 90vh;
     text-align: justify;
@@ -200,6 +200,9 @@ a.dropdown-item {
 @media only screen and (max-width: 1200px) {
     #section-2-lesson{
         height:260vh;
+    }
+    #section-2-about{
+        height:160vh;
     }
 }
 @media only screen and (max-width: 768px) {
