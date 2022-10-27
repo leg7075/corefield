@@ -232,3 +232,14 @@ a.dropdown-item {
     display: inline-block;
     padding: 0 2px;
 }
+
+.tabgroup {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    
+}
