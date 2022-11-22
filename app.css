@@ -233,13 +233,24 @@ a.dropdown-item {
     padding: 0 2px;
 }
 
-.tabgroup {
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.1);
+.nav-tabs .nav-item .nav-link {
+    background-color: #343A40;
+    color: #F8F9FA;
+}
+ 
+.nav-tabs .nav-item .nav-link:hover:not(.active) {
+    background-color: #6C757D;
+    color: #F8F9FA;
+    border-color: #F8F9FA;
+    
 }
 
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    
+.nav-tabs .nav-item .active {
+    background-color: #F8F9FA;
+    color: #343A40;
+    border-color: #F8F9FA
+} 
+.tab-content .tab-pane {
+    background-color: #F8F9FA;
+    color: #343A40;
 }
