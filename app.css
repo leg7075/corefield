@@ -173,7 +173,6 @@ a.dropdown-item {
 	background-attachment: fixed;
 	background-size: cover;
     background-position-y:20%;
-    height: 90vh;
     text-align: justify;
     color: #ffffff;
 }
@@ -183,7 +182,6 @@ a.dropdown-item {
 	background-attachment: fixed;
 	background-size: cover;
     background-position-y: 50%;
-    height: 110vh;
     text-align: center; 
     color: #ffffff;
 }
@@ -195,25 +193,6 @@ a.dropdown-item {
 #section-2-schedule{
     background: url(img/bg3.jpg);
 	background-attachment: fixed;
-}
-
-@media only screen and (max-width: 1200px) {
-    #section-2-lesson{
-        height:260vh;
-    }
-    #section-2-about{
-        height:160vh;
-    }
-}
-@media only screen and (max-width: 768px) {
-    #section-2-lesson{
-        height:270vh;
-    }
-}
-@media only screen and (max-width: 550px) {
-    #section-2-lesson{
-        height:330vh;
-    }
 }
 
 #info-block section {
