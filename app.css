@@ -53,6 +53,14 @@ hr{
     border-top: 1px solid #fff;
 }
 
+.whitelink:link {
+	color: #777777;
+}
+
+.whitelink:visited {
+	color: #777777;
+}
+
 a:link {
 	color: #eeeeee;
 }
@@ -198,6 +206,11 @@ a.dropdown-item {
 #info-block section {
     border: 2px solid black;
     min-width: 15vw;
+}
+
+#abouttext{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
 }
 
 .file-marker div {
